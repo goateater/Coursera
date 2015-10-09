@@ -61,9 +61,9 @@ def input_guess(guess):
     
     # High, Low, Correct, based on guesses for Secret Numver
     if guess == secret_number:
-        print "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-        print "You are correct!, Congratulations you win!!"
-        print "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        print "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        print "You are correct!, Conratulations you win!!"
+        print "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         print
         print "Starting a new game"
         new_game()
